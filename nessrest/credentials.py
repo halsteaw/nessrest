@@ -11,7 +11,7 @@ class WindowsPassword:
         self.domain = domain
         self.auth_method = auth_method
 
-class Ssh:
+class Ssh(object):
     '''
     Does not provide complete credential information on its own. Create one of
     its subclasses instead. The privilege escalation functions can be used on
